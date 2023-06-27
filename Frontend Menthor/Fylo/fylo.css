@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(13, 13, 58);
+
+
+}
+* {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.background img {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
+.area {
+    display: flex; 
+    justify-content:center;
+    width: 100%;
+    margin-top: 15%;
+    z-index: 1000;
+}
+.blocos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bloco1 {
+    background-color: hsl(228, 56%, 26%);
+    padding: 2% 8% 2% 2%;
+    border-radius: 10px 100px 10px 10px ;
+    margin-bottom: 100px;
+}
+.icones {
+    display: flex
+}
+.bloco1 p {
+    background-color: hsl(229, 57%, 11%);
+    padding: 10px 12px 10px 12px;
+    margin-right: 15px;
+    border-radius: 10px;
+    text-align: center;    
+}
+
+
+
+
+
+.bloco2 {
+    background-color: hsl(228, 56%, 26%);
+    width: 40%;
+    height: 180px;
+    margin-left: 30px;
+    margin-top: 3.2%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+.bloco2 p {
+    margin-top: 60px;
+}
+.bloco2 input {
+    width: 90%;
+}
+.linha-num {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+input[type=range] {
+    -webkit-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: 90%;
+    height: 1em;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgb(243, 156, 122),  rgb(241, 54, 110)) ;
+    outline: none;
+}
+.sobram {
+    font-size: 50px;
+    background-color: rgb(254, 255, 255);
+    color: #000;
+    font-weight: 700;
+    width: 200px;
+    border-radius: 10px 10px 70px 10px;
+    position: relative;
+    bottom: 90%;
+    left: 65%;
+}
+
+
+.sob {
+    font-size: medium;
+    color: rgb(156, 156, 156);
+    position: relative;
+    bottom: 15px;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .blocos {
+        display: block;
+    }
+    .area {
+        display: block;
+    }
+    .bloco1 {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 0;
+        padding-bottom: 0%;
+    }
+    .bloco2 {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .bloco2 p {
+        padding-top: 10%;
+    }
+    .sobram {
+        position: relative;
+        bottom: 80%;
+        left: 20%;
+    }
+
+}
