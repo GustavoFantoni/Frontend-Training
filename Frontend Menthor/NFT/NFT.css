@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+* {
+    font-family: 'Outfit', sans-serif;
+}
+body {
+    background-color:  hsl(217, 54%, 11%);
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-color:  hsl(216, 50%, 16%) ;
+    width: 350px;
+    border-radius: 15px;
+    margin-top: 5%;
+}
+.card img {
+    margin-left: 5%;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+.card h1 {
+    color: white;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-bottom: 0;
+}
+.card .text  {
+    margin-left: 5%;
+    color:  hsl(213, 22%, 47%) ;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.line {
+    display: flex;
+    justify-content: space-between;
+}
+.card .eth  {
+    color:hsl(178, 100%, 50%);
+    margin-top: 0;
+    width: 50%;
+    margin-left: 5%;
+}
+.icon img {
+    position:relative;
+    top: 2px;
+    padding-right: 10px;
+}
+.time {
+    width: 49%;
+    text-align: right;
+    margin-right: 5%;
+    color:  hsl(215, 51%, 70%) ;
+}
+.icon-time img {
+    position:relative;
+    top: 2px;
+    right: 8px;
+}
+.line-perfil {
+    display: flex;
+}
+.line-perfil .photo  {
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-bottom: 35px;
+}
+.creator  {
+    color: hsl(213, 22%, 47%) ;
+    position: relative;
+    left: 15px;
+    top: 12px;
+    
+}
+.name-c {
+    color: white;
+}
+#line-hr {
+   width: 90%;
+    background-color: rgba(0, 255, 255, 0);
+}
