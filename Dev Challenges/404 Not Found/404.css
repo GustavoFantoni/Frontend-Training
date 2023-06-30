@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+body {
+    background-color: rgb(250, 250, 250);
+    font-family: 'Space Mono', monospace;
+}
+.error {
+    margin-left: 50px;
+    font-weight: 900;
+}
+.center {
+    display: flex;
+    text-align: center;
+    margin-top: 7%;
+}
+img {
+    width: 60% ;
+}
+.direita {
+    text-align: left;
+    margin-right: 3%;
+}
+.direita h1{
+    font-size: 70px;
+    color:  rgb(58, 58, 58) ;
+}
+.direita p {
+    font-size: 30px;
+    color:  rgb(58, 58, 58) ;
+}
+.direita button {
+    background-color: rgb(58, 58, 58);
+    padding: 20px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    margin-top: 50px;
+}
+
+
+
+.created {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    color: rgb(158, 158, 158);
+}
+
+@media only screen and (max-width: 500px) {
+    .center {
+         display: block;
+    }
+    .direita h1 {
+        font-size: 55px;
+    }
+    .direita p {
+        font-size: 25px;
+    }
+    button {
+        margin-bottom: 10%;
+    }
+}
