@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.area {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  
+}
+.celular {
+  position:absolute;
+  width: 500px;
+  pointer-events: none;
+}
+.line-site {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+  max-height: 610px;
+  overflow: auto;
+  border-radius: 50px ;
+}
+
+.line-site::-webkit-scrollbar {
+  width: 1px; 
+  z-index: 10; 
+}
+.line-site::-moz-scrollbar {
+  z-index: 10; 
+}
+
+
+.site01 {
+  width: 300px;
+  border-radius: 50px 50px 0 0;
+}
+.site02 {
+  width: 300px;
+  border-radius: 0 0 50px 50px ;
+}
